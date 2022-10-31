@@ -1,6 +1,7 @@
 #include <iostream>
 #include<String>
 using namespace std;
+
 struct Node {
 	int data;
 	struct Node *next;

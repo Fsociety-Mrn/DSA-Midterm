@@ -3,7 +3,7 @@
 using namespace std;
 
 ///CLASS LINKLIST
-class linklist{
+class linkStack{
 public:
 	struct Node {
 		int data;
@@ -27,7 +27,7 @@ public:
 		struct Node* ptr;
 		ptr = head;
 		while (ptr != NULL) {
-			cout << ptr->data << " ";
+			cout << ptr->data << ",";
 			ptr = ptr->next;
 		}
 	}
